@@ -4,6 +4,7 @@ import { containerFull } from '../../CommonCss/pagecss'
 import { formHead } from '../../CommonCss/formcss'
 import Bottomnavbar from '../../Components/Bottomnavbar'
 import TopNavbar from '../../Components/TopNavbar'
+import FollowersRandomPost from '../../Components/FollowersRandomPost'
 
 const Mainpage = ({ navigation }) => {
     return (
@@ -11,7 +12,7 @@ const Mainpage = ({ navigation }) => {
             <StatusBar />
             <TopNavbar />
             <Bottomnavbar />
-            <Text style={formHead}>Mainpage</Text>
+            <FollowersRandomPost />
         </View>
     )
 }
