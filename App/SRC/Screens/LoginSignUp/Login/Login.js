@@ -14,7 +14,7 @@ const Login = ({ navigation }) => {
                 secureTextEntry={true}
             />
             <Text style={formTextLinkRight}
-                onPress={() => navigation.navigate('ForgotPassword_EnterEmail')}
+                onPress={() => navigation.navigate('ForgotPassword_EntereEmail')}
             >Forgot Password?</Text>
 
             <Text style={formbtn} onPress={

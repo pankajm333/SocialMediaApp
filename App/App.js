@@ -7,7 +7,7 @@ import Login from './SRC/Screens/LoginSignUp/Login/Login';
 import Signup_EnterEmail from './SRC/Screens/LoginSignUp/Signup/Signup_EnterEmail';
 import Signup_EnterVerificationCode from './SRC/Screens/LoginSignUp/Signup/Signup_EnterVerificationCode';
 import Signup_ChoosePassword from './SRC/Screens/LoginSignUp/Signup/Signup_ChoosePassword';
-import Signup_ChooseUserName from './SRC/Screens/LoginSignUp/Signup/Signup_ChooseUserName';
+import Signup_ChooseUsername from './SRC/Screens/LoginSignUp/Signup/Signup_ChooseUsername';
 import Signup_AccountCreated from './SRC/Screens/LoginSignUp/Signup/Signup_AccountCreated';
 
 import ForgotPassword_EntereEmail from './SRC/Screens/LoginSignUp/ForgotPassword/ForgotPassword_EntereEmail';
@@ -37,7 +37,7 @@ export default function App() {
         <Stack.Screen name="Signup_EnterEmail" component={Signup_EnterEmail} />
         <Stack.Screen name="Signup_EnterVerificationCode" component={Signup_EnterVerificationCode} />
         <Stack.Screen name="Signup_ChoosePassword" component={Signup_ChoosePassword} />
-        <Stack.Screen name="Signup_ChooseUserName" component={Signup_ChooseUserName} />
+        <Stack.Screen name="Signup_ChooseUsername" component={Signup_chooseUsername} />
         <Stack.Screen name="Signup_AccountCreated" component={Signup_AccountCreated} />
        
         <Stack.Screen name="ForgotPassword_EntereEmail" component={ForgotPassword_EntereEmail} />
@@ -46,7 +46,7 @@ export default function App() {
         <Stack.Screen name="ForgotPassword_AccountRecovered" component={ForgotPassword_AccountRecovered} />
         
         
-        <Stack.Screen name="Mainpage" component={Mainpage} />
+        <Stack.Screen name="MainPage" component={Mainpage} />
       
         
       </Stack.Navigator>

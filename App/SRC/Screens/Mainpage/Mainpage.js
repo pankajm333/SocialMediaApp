@@ -8,7 +8,7 @@ import FollowersRandomPost from '../../Components/FollowersRandomPost'
 
 const Mainpage = ({ navigation }) => {
     return (
-        <View style={containerFull}>
+        <View style={styles.container}>
             <StatusBar />
             <TopNavbar />
             <Bottomnavbar />
@@ -19,4 +19,11 @@ const Mainpage = ({ navigation }) => {
 
 export default Mainpage
 
-const styles = StyleSheet.create({})
+const styles = StyleSheet.create({
+    container: {
+        width: '100%',
+        height: '100%',
+        backgroundColor: 'black',
+        paddingVertical: 50,
+    }
+})

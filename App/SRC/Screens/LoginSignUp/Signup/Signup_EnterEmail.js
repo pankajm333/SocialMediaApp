@@ -1,4 +1,4 @@
-import { StyleSheet, Text,TouchableOpacity, View ,Image} from 'react-native'
+import { StyleSheet, Text,TouchableOpacity, View ,Image, TextInput} from 'react-native'
 import React from 'react'
 import { goback,containerFull, logo1 } from '../../../CommonCss/pagecss'
 import { Ionicons } from '@expo/vector-icons';
