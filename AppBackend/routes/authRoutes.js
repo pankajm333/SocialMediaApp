@@ -28,7 +28,7 @@ async function mailer(recieveremail, code) {
 
 
     let info = await transporter.sendMail({
-        from: "GeekChat",
+        from: "PankajMeena",
         to: `${recieveremail}`,
         subject: "Email Verification",
         text: `Your Verification Code is ${code}`,
